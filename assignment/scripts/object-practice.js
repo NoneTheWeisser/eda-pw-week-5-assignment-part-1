@@ -14,7 +14,7 @@ const me = {
   lastName: `Weisser `,
   hasSiblings: true,
   shoeCount: 6,
-  favThreeFoods: ['Tacos', 'Pasta', 'Breakfast Sandwiches']
+  favThreeFoods: ['tacos', 'pasta', 'breakfast sandwiches']
 };
 console.log('A little about me:', me);
 
@@ -34,6 +34,8 @@ console.log(`My full name is ${fullName}`);
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
+console.log(`I love`, me.favThreeFoods[0]);
+console.log(`I also love`, me.favThreeFoods[2]);
 
 
 
@@ -44,6 +46,11 @@ console.log(`My full name is ${fullName}`);
   - Console.log your updated shoe count. 
 */
 
+console.log(`my current shoe count is ${me.shoeCount}`)
+me.shoeCount = me.shoeCount + 1; //woo got a new pair, add 1
+console.log(`my new shoe count is ${me.shoeCount}`)
+
+
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -51,3 +58,6 @@ console.log(`My full name is ${fullName}`);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+me.favoriteColor = `blue/green`;
+console.log(`My favorite color is`, me.favoriteColor);
