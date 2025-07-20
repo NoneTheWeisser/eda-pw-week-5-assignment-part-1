@@ -60,4 +60,4 @@ console.log(`my new shoe count is ${me.shoeCount}`)
 */
 
 me.favoriteColor = `blue/green`;
-console.log(`My favorite color is`, me.favoriteColor);
+console.log(`My favorite color is ${me.favoriteColor}`);
